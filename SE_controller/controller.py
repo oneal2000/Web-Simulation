@@ -154,7 +154,11 @@ def close_page():
 
 
 def process(id):
+    # 映射1
     # id = (id-8)/0.72
+
+    # 映射2
+    # id = int((id+0.25-8)/0.72)
     if(id==0):
         open_website(id)
     if(id==1):
